@@ -1,8 +1,10 @@
 # TP1DPBO2425C1
 
-Implementasi konsep OOP (Object-Oriented Programming) dalam 4 bahasa: C++, Java, Python, dan PHP dengan studi kasus Toko Elektronik. Program mendemonstrasikan class sederhana dengan atribut, constructor, getter/setter, serta fitur CRUD dan pencarian data.
+Saya **Iqbal Rizky Maulana** dengan NIM **2408622** mengerjakan **tugas praktikum 1** dalam mata kuliah **Desain Pemrograman Berorientasi Objek** untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan.
 
-✨ Fitur Utama
+Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Programming) dalam 4 bahasa: C++, Java, Python, dan PHP dengan studi kasus Toko Elektronik. Program mendemonstrasikan class sederhana dengan atribut, constructor, getter/setter, serta fitur CRUD dan pencarian data.
+
+## ✨ Fitur Utama
 + C++ / Java / Python (CLI / Terminal)
   - Tambah data barang
   - Tampilkan data barang
@@ -16,16 +18,21 @@ Implementasi konsep OOP (Object-Oriented Programming) dalam 4 bahasa: C++, Java,
   - Update & hapus data
   - Simpan path gambar lokal untuk ditampilkan di tabel
 
-🛠 Konsep OOP yang digunakan
+## 🛠 Konsep OOP yang digunakan
 - Class & Object
 - Constructor & Destructor (khusus C++)
 - Enkapsulasi (atribut private, akses via getter/setter)
 - Array / List of Object sebagai penyimpanan data
 
-📂 Struktur Project
-.
-├── cpp/       # Implementasi dengan C++ (CLI)
-├── java/      # Implementasi dengan Java (CLI)
-├── python/    # Implementasi dengan Python (CLI)
-├── php/       # Implementasi dengan PHP (Web)
+## 📂 Struktur Project
+```
+├── CPP/       # Implementasi dengan C++ (CLI)
+├── JAVA/      # Implementasi dengan Java (CLI)
+├── PYTHON/    # Implementasi dengan Python (CLI)
+├── PHP/       # Implementasi dengan PHP (Web)
 └── README.md  # Penjelasan Program
+```
+
+
+
+
