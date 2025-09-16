@@ -189,6 +189,12 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
   - Tampilkan Data Barang (Read)
     - Iterasi seluruh object Barang dalam $_SESSION['daftarBarang'].
     - Tampilkan sebagai baris tabel: ID, Nama, Kategori, Harga (diformat), dan Gambar (<img>).
+  - Update Data Barang
+    - Tabel daftar barang ditambah link Edit di tiap baris.
+      - Link membawa kita ke ?edit=ID.
+    - Jika ada $_GET['edit'], tampilkan form edit barang dengan data lama terisi (prefilled).
+    - Saat form disubmit ($_POST['update']), set nilai baru ke object Barang via setter.
+      - Jika upload gambar baru, hapus gambar lama dan ganti path gambar.
   - Hapus Data Barang (Delete)
     - User klik link ?hapus=id.
     - PHP cari object dengan ID tersebut dalam $_SESSION['daftarBarang'].
