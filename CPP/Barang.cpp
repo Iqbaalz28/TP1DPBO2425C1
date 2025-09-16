@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <string>
 using namespace std;
 
@@ -66,5 +65,4 @@ public:
     void setKategori(string kategori) { this->kategori = kategori; }
     void setHarga(double harga) { this->harga = harga; }
     void setStok(int stok) { this->stok = stok; }
->>>>>>> 14a5ce1f750504d32aaa953f53a1e916999bc0af
 };
