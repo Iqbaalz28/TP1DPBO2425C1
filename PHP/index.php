@@ -26,20 +26,19 @@ if (isset($_POST['tambah'])) {
 
 // ===================== UPDATE BARANG =====================
 if (isset($_POST['update'])) {
-    $id = intval($_POST['id']); // ID barang yang sedang diupdate
+    $id = intval($_POST['id']); 
+    $found = false; // flag penanda
     foreach ($_SESSION['daftarBarang'] as $b) {
-        if ($b->getId() == $id) {
+        if (!$found && $b->getId() == $id) {
             $b->setNama($_POST['nama']);
             $b->setKategori($_POST['kategori']);
             $b->setHarga(floatval($_POST['harga']));
 
             // Jika user upload gambar baru
             if (!empty($_FILES['gambar']['name'])) {
-                // Hapus gambar lama
                 if (file_exists($b->getGambar())) {
                     unlink($b->getGambar());
                 }
-                // Simpan gambar baru
                 $uploadDir = "uploads/";
                 if (!is_dir($uploadDir)) mkdir($uploadDir, 0777, true);
                 $fileName = time() . "_" . basename($_FILES['gambar']['name']);
@@ -48,7 +47,8 @@ if (isset($_POST['update'])) {
                     $b->setGambar($uploadFile);
                 }
             }
-            break;
+
+            $found = true;
         }
     }
 }
@@ -133,3 +133,4 @@ else:
 </table>
 </body>
 </html>
+
