@@ -195,7 +195,7 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
     - Jika ketemu:
       - Hapus file gambar (unlink()).
       - Hapus object dari session array.
-      - 
+        
 + **Dokumentasi Program**
   - Tampilan Halaman Utama Program
     <img width="1190" height="348" alt="image" src="https://github.com/user-attachments/assets/aba32425-0d19-40fe-8db9-2ddfbbefe961" />
