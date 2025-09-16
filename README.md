@@ -16,6 +16,12 @@ Implementasi konsep OOP (Object-Oriented Programming) dalam 4 bahasa: C++, Java,
   - Update & hapus data
   - Simpan path gambar lokal untuk ditampilkan di tabel
 
+🛠 Konsep OOP yang digunakan
+- Class & Object
+- Constructor & Destructor (khusus C++)
+- Enkapsulasi (atribut private, akses via getter/setter)
+- Array / List of Object sebagai penyimpanan data
+
 📂 Struktur Project
 .
 ├── cpp/       # Implementasi dengan C++ (CLI)
