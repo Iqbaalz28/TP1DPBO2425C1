@@ -213,8 +213,11 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
     <img width="975" height="353" alt="image" src="https://github.com/user-attachments/assets/d3cdc4f8-3dde-4af9-a5ac-f6b41f7008da" />
 
   - Update Barang
+
     <img width="594" height="290" alt="image" src="https://github.com/user-attachments/assets/2cae1ac4-68bf-4d0a-8336-0600de585f3c" />
+
     <img width="580" height="191" alt="image" src="https://github.com/user-attachments/assets/6f7b9862-e4e0-48c7-bfde-b66966223dd4" />
+
     <img width="921" height="474" alt="image" src="https://github.com/user-attachments/assets/5216292b-1ea0-4dd5-9f51-acbb45e30570" />
 
   - Menghapus Barang
