@@ -119,5 +119,38 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
   - Menghapus Barang dengan ID 2, dan Mencari Barang Tersebut setelah Dihapus serta Menampilkan seluruh Barang setelah Penghapusan Barang
     <img width="940" height="449" alt="image" src="https://github.com/user-attachments/assets/ec9ec1f1-0a25-404f-a8a2-f7fb73ae8074" />
 
+## 📌 3. Python (CLI / Terminal)
++ **Desain Class**
+  - Class: Barang
+  - Atribut: _id (int), _nama (str), _kategori (str), _harga (float), _stok (int).
+  - Method: __init__, getter, setter.
 
++ **Struktur Program**
+  - barang.py → class Barang.
+  - main.py → menu + logic CRUD.
+  - Penyimpanan data: list daftarBarang.
+
++ **Flow Kode**
+  - Fungsi main() menjalankan loop while True.
+  - User memilih menu (1–5 atau 0).
+  - Panggil fungsi sesuai menu:
+    - **tambahBarang()** → input data → buat objek → append ke list.
+    - **tampilkanBarang()** → iterasi list → print data.
+    - **updateBarang()** → cari ID → ubah data dengan setter.
+    - **hapusBarang()** → filter list tanpa ID tsb.
+    - **cariBarang()** → cari ID → tampilkan jika ada.
+  - 0 → break loop → keluar.
+
+ + **Dokumentasi Program**
+   - Menambah Barang Baru di Bahasa Python
+     <img width="940" height="474" alt="image" src="https://github.com/user-attachments/assets/0d82c885-a16b-4ec3-b19b-54695136f290" />
+
+   - Menampilkan Semua Barang di Bahasa Python
+     <img width="940" height="217" alt="image" src="https://github.com/user-attachments/assets/2e8305b6-9efb-40ed-8a08-946eec57bd15" />
+
+   - Update Barang di Bahasa Python
+     <img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/2824d299-56ba-435b-922b-468800ded74b" />
+
+   - Menghapus Barang dan Mencari Barang Yang sudah dihapus
+     <img width="940" height="557" alt="image" src="https://github.com/user-attachments/assets/22bb10c0-33b3-40a2-b31e-b569829b0262" />
 
