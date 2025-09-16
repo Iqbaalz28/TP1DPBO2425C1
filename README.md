@@ -154,3 +154,57 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
    - Menghapus Barang dan Mencari Barang Yang sudah dihapus
      <img width="940" height="557" alt="image" src="https://github.com/user-attachments/assets/22bb10c0-33b3-40a2-b31e-b569829b0262" />
 
+## 📌 3. PHP (Web)
++ **Class Barang (Barang.php)**
+  - **Atribut (private)**
+    - id → integer, identifier unik barang.
+    - nama → string, nama barang.
+    - kategori → string, kategori barang.
+    - harga → float, harga barang.
+    - gambar → string, path file lokal hasil upload.
+      
+  - **Method**
+    - __construct() → constructor untuk mengisi atribut saat object dibuat.
+    - Getter: getId(), getNama(), getKategori(), getHarga(), getGambar().
+    - Setter: setNama(), setKategori(), setHarga(), setGambar().
+
++ **File index.php**
+  - Session ($_SESSION) digunakan sebagai penyimpanan array of object (daftarBarang).
+  - Form HTML dipakai untuk input data barang baru (termasuk upload gambar).
+  - Tabel HTML menampilkan daftar barang.
+  - Link Hapus (?hapus=id) untuk menghapus barang berdasarkan ID.
+
++ **Flow Kode**
+  - Load Class & Start Session
+    - Memastikan definisi class Barang sudah tersedia sebelum unserialize dari session.
+  - Inisialisasi Penyimpanan
+    - Jika belum ada data, buat array kosong.
+    - $_SESSION['daftarBarang'] akan menampung sekumpulan object Barang.
+  - Tambah Data Barang (Create)
+    - User isi form HTML, termasuk file gambar.
+    - PHP proses form:
+      - Upload file gambar → simpan di folder uploads/.
+      - Path file (uploads/nama_file.jpg) dipakai sebagai atribut gambar.
+      - Buat object Barang baru, lalu masukkan ke $_SESSION['daftarBarang'].
+  - Tampilkan Data Barang (Read)
+    - Iterasi seluruh object Barang dalam $_SESSION['daftarBarang'].
+    - Tampilkan sebagai baris tabel: ID, Nama, Kategori, Harga (diformat), dan Gambar (<img>).
+  - Hapus Data Barang (Delete)
+    - User klik link ?hapus=id.
+    - PHP cari object dengan ID tersebut dalam $_SESSION['daftarBarang'].
+    - Jika ketemu:
+      - Hapus file gambar (unlink()).
+      - Hapus object dari session array.
+      - 
++ **Dokumentasi Program**
+  - Tampilan Halaman Utama Program
+    <img width="1190" height="348" alt="image" src="https://github.com/user-attachments/assets/aba32425-0d19-40fe-8db9-2ddfbbefe961" />
+    
+  - Menambahkan Barang
+    <img width="1109" height="152" alt="image" src="https://github.com/user-attachments/assets/53a19b4f-6133-42d1-af27-31a39285054f" />
+  
+  - Menampilkan Barang
+    <img width="975" height="353" alt="image" src="https://github.com/user-attachments/assets/d3cdc4f8-3dde-4af9-a5ac-f6b41f7008da" />
+
+  - Menghapus Barang
+    <img width="1161" height="425" alt="image" src="https://github.com/user-attachments/assets/e388a864-baa3-4ea2-832d-81f72bb0d249" />
