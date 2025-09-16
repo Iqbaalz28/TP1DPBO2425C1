@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <bits/stdc++.h>
 #include "Barang.cpp"
 #include <iomanip>
@@ -172,5 +171,4 @@ int main() {
             case 5: cariBarang(); break;
         }
     } while(pilihan != 0);
->>>>>>> 14a5ce1f750504d32aaa953f53a1e916999bc0af
 }
