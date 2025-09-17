@@ -1,0 +1,83 @@
+/* ====== Global Style ====== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1e3a8a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* ====== Heading ====== */
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+/* ====== Form Style ====== */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #1e3a8a;
+  border-radius: 8px;
+  background: #f5f8ff;
+}
+
+.form-box input,
+.form-box button {
+  padding: 8px;
+  border: 1px solid #1e3a8a;
+  border-radius: 5px;
+}
+
+.form-box button {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  background-color: #163072;
+}
+
+/* ====== Table Style ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #1e3a8a;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f5f8ff;
+}
+
+/* ====== Result Box ====== */
+.result-box {
+  border: 1px solid #1e3a8a;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background: #f5f8ff;
+}
