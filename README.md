@@ -151,6 +151,9 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
    - Update Barang di Bahasa Python
      <img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/2824d299-56ba-435b-922b-468800ded74b" />
 
+   - Mencari barang berdasarkan ID
+     <img width="849" height="367" alt="image" src="https://github.com/user-attachments/assets/ee23e43e-6ec9-4b9f-9399-53d2529685e1" />
+     
    - Menghapus Barang dan Mencari Barang Yang sudah dihapus
      <img width="940" height="557" alt="image" src="https://github.com/user-attachments/assets/22bb10c0-33b3-40a2-b31e-b569829b0262" />
 
@@ -204,24 +207,37 @@ Adapun repository ini merupakan implementasi konsep OOP (Object-Oriented Program
         
 + **Dokumentasi Program**
   - Tampilan Halaman Utama Program
-    <img width="1190" height="348" alt="image" src="https://github.com/user-attachments/assets/aba32425-0d19-40fe-8db9-2ddfbbefe961" />
-    
+    <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ebe2caca-49c4-4012-b912-3102ff670b6c" />
+
   - Menambahkan Barang
-    <img width="1109" height="152" alt="image" src="https://github.com/user-attachments/assets/53a19b4f-6133-42d1-af27-31a39285054f" />
+    <img width="1111" height="412" alt="image" src="https://github.com/user-attachments/assets/69a33f9b-799b-4792-b73c-29eee42b7fe1" />
   
   - Menampilkan Barang
-    <img width="975" height="353" alt="image" src="https://github.com/user-attachments/assets/d3cdc4f8-3dde-4af9-a5ac-f6b41f7008da" />
+    <img width="1101" height="188" alt="image" src="https://github.com/user-attachments/assets/f1f3b5a3-8521-41f9-9bab-2081599ff976" />
 
   - Update Barang
+    <img width="1105" height="544" alt="image" src="https://github.com/user-attachments/assets/2eeefa3e-e39f-48c4-94d6-f7b39b727ad8" />
 
-    <img width="594" height="290" alt="image" src="https://github.com/user-attachments/assets/2cae1ac4-68bf-4d0a-8336-0600de585f3c" />
+    <img width="1110" height="540" alt="image" src="https://github.com/user-attachments/assets/32846bb1-daaa-4654-9748-051bc88268cc" />
 
-    <img width="580" height="191" alt="image" src="https://github.com/user-attachments/assets/6f7b9862-e4e0-48c7-bfde-b66966223dd4" />
+    <img width="1105" height="578" alt="image" src="https://github.com/user-attachments/assets/2f16fd5b-7f12-4ed9-a1d9-9a39d9e515b6" />
 
-    <img width="921" height="474" alt="image" src="https://github.com/user-attachments/assets/5216292b-1ea0-4dd5-9f51-acbb45e30570" />
+    <img width="1106" height="231" alt="image" src="https://github.com/user-attachments/assets/cb51ba2d-f46b-4c1c-84c5-09e46c55e648" />
 
   - Menghapus Barang
-    <img width="1189" height="631" alt="image" src="https://github.com/user-attachments/assets/f3c72d53-4283-4ba3-b6c7-1891f972d599" />
-    <img width="1109" height="284" alt="image" src="https://github.com/user-attachments/assets/1a446585-bee9-4cad-8224-bc7bc29b6856" />
+    <img width="1365" height="672" alt="image" src="https://github.com/user-attachments/assets/63346e1c-7e9b-4ca5-aeaa-0549b12010a8" />
+
+    <img width="1096" height="113" alt="image" src="https://github.com/user-attachments/assets/c09a84f5-37a8-4164-bbd2-8664e672fedc" />
+
+  - Mencari Barang Yang Sudah Dihapus
+    <img width="1112" height="203" alt="image" src="https://github.com/user-attachments/assets/77153ea0-8019-4bd0-a9c2-8a7d57a35799" />
+
+  - Menambahkan Kembali Barang dan Mencarinya
+    <img width="1112" height="341" alt="image" src="https://github.com/user-attachments/assets/c268e534-5f4f-48a7-af06-158a7407d6c6" />
+    
+    <img width="1103" height="564" alt="image" src="https://github.com/user-attachments/assets/a817e9cc-c2e1-4651-9100-c40cdc9ba33c" />
+
+
+    
 
 
